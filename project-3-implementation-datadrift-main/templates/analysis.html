@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ analysis_type.replace('_', ' ').title() }} Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ analysis_type.replace('_', ' ').title() }} Analysis</h1>
+        <a href="{{ url_for('index') }}" class="btn">Home</a>
+        <div>
+            <h2>Choose Analysis Parameters</h2>
+            <form method="POST">
+                <!-- Date Range Inputs -->
+                <label for="start_date">Start Date (DD-MM-YYYY):</label>
+                <input type="date" id="start_date" name="start_date" value="{{ start_date or '2024-11-01' }}">
+                <br>
+                <label for="end_date">End Date (DD-MM-YYYY):</label>
+                <input type="date" id="end_date" name="end_date" value="{{ end_date or '2024-11-14' }}">
+                <br><br>
+
+                <!-- Show min/max comments range only for reddit_toxicity_over_time -->
+                {% if analysis_type == 'reddit_toxicity_over_time' %}
+                <label for="min_comments">Minimum Comments:</label>
+                <input type="number" id="min_comments" name="min_comments" value="{{ min_comments or 0 }}">
+                <br>
+                <label for="max_comments">Maximum Comments:</label>
+                <input type="number" id="max_comments" name="max_comments" value="{{ max_comments or 1000 }}">
+                <br><br>
+                {% endif %}
+
+                <button type="submit" class="btn">Generate Analysis</button>
+            </form>
+        </div>
+
+        <!-- Modal for displaying analysis result -->
+        {% if plot_url %}
+        <div id="resultModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">×</span>
+                <h3>Analysis Results ({{ start_date }} to {{ end_date }})</h3>
+                <img src="{{ url_for('static', filename=plot_url) }}" alt="{{ analysis_type.replace('_', ' ').title() }} Graph">
+            </div>
+        </div>
+        
+        <script>
+            // Show the modal automatically if plot_url exists
+            document.getElementById('resultModal').style.display = 'flex';
+        
+            // Function to close the modal
+            function closeModal() {
+                document.getElementById('resultModal').style.display = 'none';
+            }
+        </script> 
+        <script>
+            // Show the modal automatically if plot_url exists
+            document.getElementById('resultModal').style.display = 'flex';
+        
+            // Function to close 
+            function closeModal() {
+                document.getElementById('resultModal').style.display = 'none';
+            }
+        
+            // Close the modal 
+            window.onclick = function(event) {
+                const modal = document.getElementById('resultModal');
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        </script>
+              
+        {% endif %}
+    </div>
+</body>
+</html>
