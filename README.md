@@ -47,6 +47,6 @@ The project was developed and executed on a **professor-assigned Virtual Machine
 
 ---
 
-## Author
-**Aakanksha Bhondve**  
-GitHub: https://github.com/aakanksha105
+### 👩‍💻 Author
+Aakanksha Bhondve
+
