@@ -23,3 +23,30 @@ The project was developed and executed on a **professor-assigned Virtual Machine
 - **Text Processing:** Basic NLP preprocessing  
 - **Environment:** Linux-based Virtual Machine  
 
+## Repository Structure
+project--proposal-datadrift-main/ # Problem formulation & methodology
+project--implementation-datadrift-main/ # Data processing & analytics code
+project-*-report-datadrift-main/ # Analysis results & visual reports
+
+
+---
+
+## Methodology
+1. Ingested raw social media fitness data into a VM-based environment  
+2. Cleaned and normalized noisy, unstructured text data  
+3. Performed exploratory and statistical analysis to identify trends  
+4. Visualized insights through comparative and time-series plots  
+5. Documented findings in structured analytical reports  
+
+---
+
+## Outcomes
+- Identified dominant fitness discussion themes and engagement trends
+- Demonstrated reproducible data analytics workflows on a remote VM
+- Delivered multiple analytical reports showcasing progressive insights
+
+---
+
+## Author
+**Aakanksha Bhondve**  
+GitHub: https://github.com/aakanksha105
