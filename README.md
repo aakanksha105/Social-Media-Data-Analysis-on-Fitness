@@ -24,12 +24,9 @@ The project was developed and executed on a **professor-assigned Virtual Machine
 - **Environment:** Linux-based Virtual Machine  
 
 ## Repository Structure
-- **project-1-proposal-datadrift-main/
-- # Problem formulation & methodology
-- **project-2-implementation-datadrift-main/
-- # Data processing & analytics code
-- **project-3-report-datadrift-main/
-- # Analysis results & visual reports
+- **project-1-proposal-datadrift-main/   # Problem formulation & methodology
+- **project-2-implementation-datadrift-main/   # Data processing & analytics code
+- **project-3-report-datadrift-main/   # Analysis results & visual reports
 
 
 ---
