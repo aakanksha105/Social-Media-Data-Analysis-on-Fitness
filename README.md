@@ -1,6 +1,6 @@
 # 📊 Social Media Data Analysis on Fitness
 
-## Overview
+## 📌 Project Overview
 This project implements an end-to-end data analytics pipeline to analyze fitness-related discussions from social media platforms. It focuses on extracting trends, engagement patterns, and topic-level insights from large-scale unstructured text data.
 
 The project was developed and executed on a **professor-assigned Virtual Machine (VM)**, simulating a real-world remote data processing environment and ensuring reproducibility across all project phases.
@@ -16,7 +16,7 @@ The project was developed and executed on a **professor-assigned Virtual Machine
 
 ---
 
-## Tech Stack
+## 🛠️ Technologies Used
 - **Language:** Python  
 - **Data Processing:** pandas, NumPy  
 - **Visualization:** Matplotlib, Seaborn  
@@ -40,7 +40,7 @@ The project was developed and executed on a **professor-assigned Virtual Machine
 
 ---
 
-## Outcomes
+## 📈 Key Learning Outcomes
 - Identified dominant fitness discussion themes and engagement trends
 - Demonstrated reproducible data analytics workflows on a remote VM
 - Delivered multiple analytical reports showcasing progressive insights
