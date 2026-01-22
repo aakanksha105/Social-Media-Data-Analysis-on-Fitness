@@ -1,52 +1,75 @@
-# 📊 Social Media Data Analysis on Fitness
+# Social Media Data Analysis on Fitness
 
-## 📌 Project Overview
-This project implements an end-to-end data analytics pipeline to analyze fitness-related discussions from social media platforms. It focuses on extracting trends, engagement patterns, and topic-level insights from large-scale unstructured text data.
+An end-to-end data analytics project focused on analyzing fitness-related discussions from social media platforms to identify trends, engagement patterns, and topic-level insights from large-scale unstructured text data.
 
-The project was developed and executed on a **professor-assigned Virtual Machine (VM)**, simulating a real-world remote data processing environment and ensuring reproducibility across all project phases.
+---
+
+## Overview
+
+This project implements a complete data analytics workflow, from data ingestion and preprocessing to exploratory analysis and reporting. It focuses on extracting meaningful insights from fitness-related social media discussions using statistical and time-series analysis techniques.
+
+The project was developed and executed in a Linux-based virtual machine environment, simulating a real-world remote data processing setup and ensuring reproducibility across all stages.
 
 ---
 
 ## Key Highlights
-- Designed a multi-phase social media analytics workflow (proposal → implementation → reporting)
-- Processed and analyzed large volumes of unstructured fitness-related text data
+- Designed a multi-phase analytics workflow covering data ingestion, analysis, and reporting
+- Processed and analyzed large volumes of unstructured text data
 - Performed data cleaning, exploratory data analysis (EDA), and trend analysis
-- Generated visual insights using statistical and time-series analysis
-- Executed all experiments in a standardized VM environment
+- Generated visual insights using statistical and time-series methods
+- Executed and validated the pipeline in a standardized virtual machine environment
 
 ---
 
-## 🛠️ Technologies Used
-- **Language:** Python  
-- **Data Processing:** pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn  
-- **Text Processing:** Basic NLP preprocessing  
-- **Environment:** Linux-based Virtual Machine  
+## Tech Stack
+- Language: Python  
+- Data Processing: pandas, NumPy  
+- Visualization: Matplotlib, Seaborn  
+- Text Processing: Basic NLP preprocessing  
+- Environment: Linux-based Virtual Machine  
+
+---
 
 ## Repository Structure
-- project-1-proposal-datadrift-main/   # Problem formulation & methodology
-- project-2-implementation-datadrift-main/   # Data processing & analytics code
-- project-3-report-datadrift-main/   # Analysis results & visual reports
 
+project-1-proposal-datadrift-main/ – Problem formulation and methodology  
+project-2-implementation-datadrift-main/ – Data processing and analytics code  
+project-3-report-datadrift-main/ – Analysis results and visual reports  
 
 ---
 
 ## Methodology
-1. Ingested raw social media fitness data into a VM-based environment  
-2. Cleaned and normalized noisy, unstructured text data  
-3. Performed exploratory and statistical analysis to identify trends  
-4. Visualized insights through comparative and time-series plots  
-5. Documented findings in structured analytical reports  
+
+- Ingested raw fitness-related social media data into a VM-based environment  
+- Cleaned and normalized noisy, unstructured text data  
+- Performed exploratory and statistical analysis to identify trends and patterns  
+- Visualized insights using comparative and time-series plots  
+- Documented findings through structured analytical reports  
 
 ---
 
-## 📈 Key Learning Outcomes
-- Identified dominant fitness discussion themes and engagement trends
-- Demonstrated reproducible data analytics workflows on a remote VM
-- Delivered multiple analytical reports showcasing progressive insights
+## Results & Insights
+
+The analysis highlights:
+- Dominant fitness discussion themes across datasets  
+- Engagement patterns and temporal trends  
+- Variations in topic popularity over time  
+
+These insights demonstrate how social media data can be leveraged to understand evolving fitness and health trends.
 
 ---
 
-### 👩‍💻 Author
+## Learning Outcomes
+- Built reproducible data analytics workflows in a remote computing environment  
+- Gained hands-on experience with large-scale text data processing  
+- Developed structured analytical reports showcasing progressive insights  
+
+---
+
+## Author
 Aakanksha Bhondve
 
+---
+
+## License
+MIT License
