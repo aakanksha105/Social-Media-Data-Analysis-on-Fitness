@@ -70,6 +70,3 @@ These insights demonstrate how social media data can be leveraged to understand 
 Aakanksha Bhondve
 
 ---
-
-## License
-MIT License
